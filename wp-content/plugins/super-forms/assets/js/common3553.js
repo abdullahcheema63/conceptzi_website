@@ -6840,7 +6840,7 @@ function SUPERreCaptcha(){
                 }
                 
                 // @SINCE 4.9.520 - Remember multi-part position/location and allow to anchor to a specific multi-part
-                // Example: http://domain.com/page#step-49344-3
+                // Example: https://domain.com/page#step-49344-3
                 var currentStep = window.location.hash.substring(1);
                 if(currentStep!==''){
                     var explodedStep = currentStep.split('-');
